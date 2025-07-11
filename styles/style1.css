@@ -1,0 +1,255 @@
+/* Fonts */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Styles */
+.color-primary {
+  color: #4e47ff;
+}
+
+.button-primary {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  background-color: #4e47ff;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  padding: 12px 36px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-primary:hover {
+  background-color: #3d36d6;
+  transform: translateY(-2px);
+}
+
+/* Header Style */
+.header {
+  background-image: url(../Assets/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
+}
+
+.nav-title {
+  font-weight: 900;
+  font-size: 34px;
+}
+
+/* Hero Section */
+.hero-main {
+  padding: 158px 276.5px 152px 267.5px;
+  text-align: center;
+}
+
+.hero-info {
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+/* Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 116px 160px 0 141px;
+}
+
+.left-child {
+  width: 517px;
+}
+
+.left-child p {
+  margin: 0 0 23px 0;
+}
+
+.action-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.action-description {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+.action-image {
+  width: 403px;
+  border-radius: 48px;
+}
+
+/* Statistics Section */
+.statistics-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  margin: 116px 159px 0 141px;
+  border-radius: 24px;
+}
+
+.stat-container {
+  padding: 50px 0;
+}
+
+.stat-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #252432;
+  text-align: center;
+}
+
+.stat-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.stat-ul li {
+  text-align: center;
+}
+
+.stat-ul-p1 {
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  margin: 0;
+}
+
+.stat-ul-p2 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Feedback Section */
+.feedback-section {
+  padding: 137px 149px 0 151px;
+}
+
+.feedback-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #252432;
+  text-align: center;
+}
+
+.feedback-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feedback-block {
+  padding: 24px;
+  max-width: 320px;
+}
+
+.feed-block-h {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1e1e1e;
+  margin-bottom: 8px;
+}
+
+.feed-block-p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1e1e1e;
+}
+
+.feedback-bottom {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.feedback-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.feed-rev {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #757575;
+  margin: 0 0 2px 0;
+}
+
+.feed-date {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+/* Focus Section */
+.focus-section {
+  margin: 137px 139px 0 151px;
+  padding: 71px 150px;
+  text-align: center;
+}
+
+.focus-h {
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.focus-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.focus-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.focus-img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.focus-img {
+  border-radius: 48px;
+  margin-top: 20px;
+  max-width: 100%;
+}
